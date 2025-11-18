@@ -45,5 +45,9 @@ func (gc *GoCache) Remember(key string, ttl time.Duration, dst any, fn func() (a
 		return err
 	}
 
-	return gc.Set(key, val, ttl)
+	if err := gc.Set(key, val, ttl); err != nil {
+		return err
+	}
+
+	return gc.Get(key, dst)
 }
