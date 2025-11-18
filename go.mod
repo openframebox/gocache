@@ -1,4 +1,4 @@
-module github.com/rizkykurniawan-personal/gocache
+module github.com/openframebox/gocache
 
 go 1.25.0
 

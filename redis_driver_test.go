@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/rizkykurniawan-personal/gocache"
+	"github.com/openframebox/gocache"
 	"github.com/stretchr/testify/assert"
 )
 

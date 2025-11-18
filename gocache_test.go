@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/rizkykurniawan-personal/gocache"
+	"github.com/openframebox/gocache"
 )
 
 func TestGoCache_Remember(t *testing.T) {
